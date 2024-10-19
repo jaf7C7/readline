@@ -1,4 +1,7 @@
 set editing-mode vi
+set show-mode-in-prompt
+set vi-cmd-mode-string "\1\033[1 q\2"
+set vi-ins-mode-string "\1\033[5 q\2"
 $if mode=vi
     set keymap vi-command
     "g": beginning-of-history
