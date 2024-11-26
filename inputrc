@@ -1,4 +1,6 @@
 set editing-mode vi
+# Ctrl-Backspace
+"\C-h": backward-kill-word
 set show-mode-in-prompt
 set vi-cmd-mode-string "\1\033[1 q\2"
 set vi-ins-mode-string "\1\033[5 q\2"
@@ -8,5 +10,3 @@ $if mode=vi
     "g": beginning-of-history
     "G": end-of-history
 $endif
-# Ctrl-Backspace
-"\C-h": backward-kill-word
