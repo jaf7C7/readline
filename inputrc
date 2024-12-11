@@ -1,6 +1,6 @@
-set editing-mode vi
 # Ctrl-Backspace
 "\C-h": backward-kill-word
+set editing-mode vi
 set show-mode-in-prompt
 set vi-cmd-mode-string "\1\033[1 q\2"
 set vi-ins-mode-string "\1\033[5 q\2"
